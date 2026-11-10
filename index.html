@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#ffe4e1">
+  
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎀</text></svg>">
+
+  <!-- Open Graph / WhatsApp -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Jane Victoria · 9 Añitos 🎀">
+  <meta property="og:description" content="¡Estás invitado a mi partida de torta sorpresa! Descubre los detalles del evento aquí.">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Jane Victoria · 9 Añitos 🎀">
+  <meta name="twitter:description" content="¡Estás invitado a mi partida de torta sorpresa! Descubre los detalles del evento aquí.">
+
+  <title>Jane Victoria · 9 Añitos</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <!-- Barra de navegación flotante superior -->
+  <nav class="top-nav">
+    <div class="nav-container">
+      <div class="nav-logo">🎀</div>
+      <ul class="nav-links">
+        <li><a href="#hero">INICIO</a></li>
+        <li><a href="#evento">DETALLES</a></li>
+        <li><a href="#galeria">GALERÍA</a></li>
+        <li><a href="#confirmacion">CONFIRMACIÓN</a></li>
+      </ul>
+      <a href="#confirmacion" class="btn btn-nav">
+        <span class="nav-btn-icon">💬</span> Confirmar Asistencia
+      </a>
+    </div>
+  </nav>
+
+  <div class="magic-particles" aria-hidden="true"></div>
+
+  <header id="hero" class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <div class="crest" aria-hidden="true">💖</div>
+      <p class="eyebrow">ESTÁS INVITADO A MI PARTIDA DE TORTA SORPRESA</p>
+      <h1>9 <span>Añitos</span></h1>
+      <div class="gold-line"><span>✦</span></div>
+
+      <!-- Saludo Personalizado (Oculto por defecto) -->
+      <div id="personalized-greeting" class="personalized-greeting" style="display: none;">
+        <p class="greeting-title">INVITACIÓN ESPECIAL PARA</p>
+        <h3 id="guest-name-display">Nombre</h3>
+        <p id="guest-tickets-display" class="greeting-tickets"><strong>0</strong> pases reservados</p>
+      </div>
+
+      <p class="hero-text">Será una tarde mágica y muy dulce, llena de alegría, familia y amigos.<br><em>¡Tu presencia hará que sea inolvidable!</em></p>
+      <a class="btn btn-primary" href="#evento">Descubrir la invitación <span>↓</span></a>
+    </div>
+  </header>
+
+  <main>
+    <section id="invitacion" class="section intro">
+      <div class="section-inner reveal">
+        <p class="section-kicker">UNA TARDE DE MAGIA</p>
+        <h2>La magia está en<br><em>los pequeños momentos</em></h2>
+        <p class="lead">
+          Cumplir 9 añitos es abrir un nuevo capítulo lleno de risas, juegos, 
+          personas increíbles y mucha diversión. Esta vez, quiero escribir 
+          este dulce recuerdo contigo.
+        </p>
+      </div>
+    </section>
+
+    <!-- Sección del Evento -->
+    <section id="evento" class="section event">
+      <div class="event-wrapper reveal">
+        <div class="event-grid">
+          
+          <!-- Tarjeta Fecha -->
+          <article class="gold-card event-item">
+            <div class="card-icon-wrap">
+              <span class="card-icon">📅</span>
+            </div>
+            <strong class="card-title">FECHA</strong>
+            <div class="card-divider">✦</div>
+            <p class="card-subtext">Lunes</p>
+            <div class="card-highlight">16</div>
+            <p class="card-subtext">Noviembre 2026</p>
+          </article>
+
+          <!-- Tarjeta Hora -->
+          <article class="gold-card event-item">
+            <div class="card-icon-wrap">
+              <span class="card-icon">🕒</span>
+            </div>
+            <strong class="card-title">HORA</strong>
+            <div class="card-divider">✦</div>
+            <div class="card-highlight text-large">4:00 p. m.</div>
+            <p class="card-note">¡Te espero con ansias!</p>
+          </article>
+
+          <!-- Tarjeta Lugar -->
+          <article class="gold-card event-item">
+            <div class="card-icon-wrap">
+              <span class="card-icon">📍</span>
+            </div>
+            <strong class="card-title">LUGAR</strong>
+            <div class="card-divider">✦</div>
+            <p class="card-place-name">Piedecuesta</p>
+            <p class="card-address">Carrera 18a # 7b-26<br>Cabecera Primera Etapa</p>
+            <a class="btn btn-card-action" target="_blank" rel="noopener noreferrer" href="https://maps.google.com/?q=Carrera+18a+%23+7b-26+Piedecuesta">
+              📍 Ver ubicación ↗
+            </a>
+          </article>
+
+          <!-- Tarjeta Código de Vestimenta -->
+          <article class="gold-card event-item">
+            <div class="card-icon-wrap">
+              <span class="card-icon">🎀</span>
+            </div>
+            <strong class="card-title">CÓDIGO DE VESTIMENTA</strong>
+            <div class="card-divider">✦</div>
+            <div class="dresscode-icons">
+              <span class="dress-icon" title="Niñas">👗</span>
+              <span class="dress-sep">|</span>
+              <span class="dress-icon" title="Niños">👕</span>
+            </div>
+            <p class="card-place-name">Casual / Cómodo</p>
+            <p class="card-note">¡Listo para disfrutar y jugar!</p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Cuenta Regresiva -->
+    <section class="countdown-section">
+      <div class="countdown-bg"></div>
+      <div class="countdown-content reveal">
+        <p class="section-kicker light">LA CUENTA REGRESIVA COMIENZA</p>
+        <h2>Faltan...</h2>
+        <div class="countdown" aria-label="Cuenta regresiva">
+          <div><span id="days">00</span><small>Días</small></div>
+          <div><span id="hours">00</span><small>Horas</small></div>
+          <div><span id="minutes">00</span><small>Minutos</small></div>
+          <div><span id="seconds">00</span><small>Segundos</small></div>
+        </div>
+        <div class="calendar-action" style="margin-top: 40px; display: flex; justify-content: center;">
+          <button id="addToCalendarBtn" class="btn btn-calendar">📅 Agregar al Calendario</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- NUEVO: Galería de Fotos -->
+    <section id="galeria" class="section gallery">
+      <div class="section-inner reveal">
+        <p class="section-kicker">MOMENTOS INOLVIDABLES</p>
+        <h2>Galería de<br><em>Fotos</em></h2>
+        
+        <div class="carousel-container">
+          <button class="carousel-btn prev" aria-label="Anterior">❮</button>
+          
+          <div class="carousel-track">
+            <!-- IMPORTANTE: Cambia "foto1.jpg", "foto2.jpg" por el nombre real de las fotos de la niña en tu carpeta "assets" -->
+            <img src="assets/foto1.jpeg" alt="Jane Victoria 1" class="carousel-img" onerror="this.src='https://via.placeholder.com/280x380/ffb6c1/d1157a?text=Foto+1'">
+            <img src="assets/foto2.jpeg" alt="Jane Victoria 2" class="carousel-img" onerror="this.src='https://via.placeholder.com/280x380/ffb6c1/d1157a?text=Foto+2'">
+            <img src="assets/foto3.jpeg" alt="Jane Victoria 3" class="carousel-img" onerror="this.src='https://via.placeholder.com/280x380/ffb6c1/d1157a?text=Foto+3'">
+            <img src="assets/foto4.jpeg" alt="Jane Victoria 4" class="carousel-img" onerror="this.src='https://via.placeholder.com/280x380/ffb6c1/d1157a?text=Foto+4'">
+            <img src="assets/foto5.jpeg" alt="Jane Victoria 5" class="carousel-img" onerror="this.src='https://via.placeholder.com/280x380/ffb6c1/d1157a?text=Foto+5'">
+          </div>
+
+          <button class="carousel-btn next" aria-label="Siguiente">❯</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section details">
+      <div class="gold-card details-card reveal">
+        <p class="section-kicker">PARA TENERLO PRESENTE</p>
+        <h2>Nos vemos el<br><em>16 de noviembre</em></h2>
+        <div class="details-list">
+          <div><span>01</span><strong>La mayor sorpresa</strong><p>¡Recuerda que es sorpresa! Guarda bien el secreto.</p></div>
+          <div><span>02</span><strong>Guarda la fecha</strong><p>Lunes · 16 de noviembre · 4:00 p. m.</p></div>
+          <div><span>03</span><strong>Confirma tu asistencia</strong><p>Ayúdanos a preparar los dulces y todo para recibirte.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="confirmacion" class="rsvp">
+      <div class="gold-card rsvp-card reveal">
+        <div class="crest small" aria-hidden="true">🎂</div>
+        <p class="section-kicker">TU PRESENCIA HACE LA DIFERENCIA</p>
+        <h2>¿Nos acompañas?</h2>
+        <p>Será una inmensa alegría soplar las velas contigo.</p>
+        <button id="openRsvp" class="btn btn-primary" type="button">Confirmar asistencia ✦</button>
+        <p class="rsvp-note">La confirmación será enviada directamente por WhatsApp.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>✦ Gracias por ser parte de este recuerdo mágico ✦</p>
+    <strong>JANE VICTORIA · 9 AÑITOS · 16.11.2026</strong>
+  </footer>
+
+  <div id="rsvpModal" class="modal" aria-hidden="true">
+    <div class="modal-box" role="dialog" aria-modal="true" aria-labelledby="rsvpTitle">
+      <button id="closeRsvp" class="close" type="button" aria-label="Cerrar">×</button>
+      <p class="section-kicker">CONFIRMACIÓN DE ASISTENCIA</p>
+      <h2 id="rsvpTitle">¡Qué alegría contar contigo!</h2>
+
+      <form id="rsvpForm">
+        <label for="guestName">Tu nombre
+          <input required id="guestName" name="guestName" type="text" placeholder="Escribe tu nombre">
+        </label>
+
+        <label for="attendance">¿Asistirás?
+          <select id="attendance" name="attendance" required>
+            <option value="Sí, asistiré">Sí, asistiré ✨</option>
+            <option value="No podré asistir">No podré asistir</option>
+          </select>
+        </label>
+
+        <label for="guests">Número de personas
+          <input id="guests" name="guests" type="number" min="1" max="10" value="1">
+        </label>
+
+        <label for="message">Mensaje para Jane Victoria (opcional)
+          <textarea id="message" name="message" rows="3" placeholder="Escribe un mensajito lindo..."></textarea>
+        </label>
+
+        <button class="btn btn-primary" type="submit">Enviar confirmación por WhatsApp</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
